@@ -1,0 +1,76 @@
+
+
+     1  Authentication Id : 0 ; 102597 (00000000:000190c5)
+     2  Session           : Interactive from 1
+     3  User Name         : OFFENSIVE
+     4  Domain            : MSEDGEWIN10
+     5  Logon Server      : MSEDGEWIN10
+     6  Logon Time        : 9/3/2021 12:01:05 PM
+     7  SID               : S-1-5-21-3859058339-3768143778-240673529-1000
+     8          msv :
+     9           [00000003] Primary
+    10           * Username : OFFENSIVE 
+    11           * Domain   : MSEDGEWIN10
+    12           * NTLM     : FB4BF3DDF37CF6494A9905541290CF51
+    13           * SHA1     : 6076b8f4d982b55097f910b3fb5a81c801954406
+    14          tspkg :
+    15          wdigest :
+    16           * Username : OFFENSIVE
+    17           * Domain   : MSEDGEWIN10
+    18           * Password : (null)
+    19          kerberos :
+    20           * Username : OFFENSIVE
+    21           * Domain   : MSEDGEWIN10
+    22           * Password : (null)
+    23          ssp :
+    24          credman :
+
+    25  Authentication Id : 0 ; 102306 (00000000:00018fa2)
+    26  Session           : Interactive from 1
+    27  User Name         : OFFENSIVE
+    28  Domain            : MSEDGEWIN10
+    29  Logon Server      : MSEDGEWIN10
+    30  Logon Time        : 5/31/2019 1:01:05 AM
+    31  SID               : S-1-5-21-3859058339-3768143778-240673529-1000
+    32          msv :
+    33           [00000003] Primary
+    34           * Username : OFFENSIVE
+    35           * Domain   : MSEDGEWIN10
+    36           * NTLM     : 8758304B6AF01BB8CE1691495D29CB61	
+    37           * SHA1     : 6076b8f4d982b55097f910b3fb5a81c801954406
+    38          tspkg :
+    39          wdigest :
+    40           * Username : OFFENSIVE
+    41           * Domain   : MSEDGEWIN10
+    42           * Password : (null)
+    43          kerberos :
+    44           * Username : OFFENSIVE
+    45           * Domain   : MSEDGEWIN10
+    46           * Password : (null)
+    47          ssp :
+    48          credman :
+
+    49  Authentication Id : 0 ; 74052 (00000000:00012144)
+    50  Session           : Service from 0
+    51  User Name         : sshd_server
+    52  Domain            : MSEDGEWIN10
+    53  Logon Server      : MSEDGEWIN10
+    54  Logon Time        : 5/31/2019 1:01:04 AM
+    55  SID               : S-1-5-21-3859058339-3768143778-240673529-1003
+    56          msv :
+    57           [00000003] Primary
+    58           * Username : sshd_server
+    59           * Domain   : MSEDGEWIN10
+    60           * NTLM     : 4233ADECECC941DD550058A54D71AA52
+    61           * SHA1     : 94bd2df8ae5cadbbb5757c3be01dd40c27f9362f
+    62          tspkg :
+    63          wdigest :
+    64           * Username : sshd_server
+    65           * Domain   : MSEDGEWIN10
+    66           * Password : (null)
+    67          kerberos :
+    68           * Username : sshd_server
+    69           * Domain   : MSEDGEWIN10
+    70           * Password : (null)
+    71          ssp :
+    72          credman :
