@@ -1,7 +1,11 @@
 import random
 import string
+import json
 
+
+FLAG = json.load(open('flags.json'))["flag2"]
 sep = '-' * 30
+
 
 def level1():
     print(sep + " LEVEL 1 " + sep)
@@ -34,12 +38,11 @@ def level2():
 
 
 if __name__ == '__main__':
-    FLAG = "flag{Decimal_my_friend!}"
-
     try:
         level1()
         level2()
     except:
-        exit("\n[x] Oops! Try Again!")
+        print("\n[x] Oops! Try Again!")
+        exit()
 
     print("\n[+] Submit the FLAG => %s" % FLAG)

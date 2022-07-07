@@ -1,8 +1,12 @@
 import random
 import string
 import base64
+import json
 
+
+FLAG = json.load(open('flags.json'))["flag8"]
 sep = '-' * 30
+
 
 def level1():
     print(sep + " LEVEL 1 " + sep)
@@ -35,12 +39,11 @@ def level2():
 
 
 if __name__ == '__main__':
-    FLAG = "flag{Paul_E_Rutter}"
-
     try:
         level1()
         level2()
     except:
-        exit("\n[x] Oops! Try Again!")
+        print("\n[x] Oops! Try Again!")
+        exit()
 
-    print("\n[+] Submit the FLAG => %s" % FLAG)
+    print("\n[+] Submit the FLAG => {}".format(FLAG))

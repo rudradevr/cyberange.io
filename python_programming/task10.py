@@ -1,8 +1,11 @@
 import random
+import json
 
-FLAG = "flag{Winner_Winner!!!}"
+
+FLAG = json.load(open('flags.json'))["flag10"]
 alpha = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 sep = '\n' + '-'*50 + '\n'
+
 
 def to_base(num, radix):
     res = ""
@@ -17,11 +20,12 @@ if __name__ == '__main__':
     score = 0
 
     try:
-        for _ in range(lim):
+        for level in range(1, lim+1):
             num = random.getrandbits(64)
             radix = random.randint(2, 9)
             c = to_base(num, radix)
 
+            print("\n[ ===== LEVEL: {} Score: {} ===== ]".format(level, score))
             print("\n[=] Conver this Base{} number into Decimal: {}".format(radix, c))
             guess = int(input('[?]> ').strip())
 
@@ -39,4 +43,5 @@ if __name__ == '__main__':
             raise Exception("( Score = {}/{} )".format(score, lim))
 
     except Exception as e:        
-        exit(sep + "[x] Oops! Try Again!" + str(e))
+        print(sep + "[x] Oops! Try Again!\n" + str(e))
+        exit()
