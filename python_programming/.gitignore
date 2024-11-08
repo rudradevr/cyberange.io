@@ -1,0 +1,6 @@
+# Ignore the encrypted flags file
+flags.json
+
+# Optionally, you can ignore other sensitive files
+# secret.key
+# .env
